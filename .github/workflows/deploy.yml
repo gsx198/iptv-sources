@@ -25,7 +25,7 @@ jobs:
         run: npm install yarn -g
       - run: yarn install
       - run: yarn build
-      - run: CLOSE_SOURCE_PROXY=true && yarn m3u
+      - run: CLOSE_SOURCE_PROXY=<gsx198.github.io> && yarn m3u
 
       - name: "Jekyll theme"
         run: mv ./_config.temp.yml ./m3u/_config.yml
